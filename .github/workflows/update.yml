@@ -5,7 +5,7 @@ name: update github page
 env:
   access: restricted
   registry: https://npm.pkg.github.com
-  scope: public-ui
+  scope: public-oss
   token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
 on:
@@ -33,11 +33,11 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{env.token}}
         run: |
-          npm pack @${{env.scope}}/storybook
+          npm pack @${{env.scope}}/th-ik-ja-belegerfassung
           ls -la
       - name: Unpack
         run: |
-          tar -xzvf public-ui-storybook-*.tgz
+          tar -xzvf public-oss-*.tgz
           mv package/dist docs
           rm -rf package *.tgz
           ls -la
