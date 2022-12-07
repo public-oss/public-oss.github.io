@@ -27,7 +27,7 @@ jobs:
       - name: Clear
         run: |
           npm cache clean -f
-          rm -rf docs package *.tgz
+          rm -rf package *.tgz
           ls -la
       - name: Download
         env:
