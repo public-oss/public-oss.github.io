@@ -39,7 +39,6 @@ jobs:
         run: |
           tar -xzvf public-oss-*.tgz
           rm -rf docs/th-ik-ja-belegerfassung
-          mkdir docs/th-ik-ja-belegerfassung
           mv package/dist docs/th-ik-ja-belegerfassung
           rm -rf package *.tgz
           ls -la
