@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
   <head>
-    <title>Belegerfassung | Public-OSS</title>
+    <title>Projektliste | Public-OSS</title>
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Belegerfassung für das Jugendamt / Ilm-Kreis / Thüringen"
+      content="Übersichtseite über alle Projekte von Public-OSS."
     />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <script type="module">
-      import { register } from "https://esm.sh/@public-ui/core";
-      import { defineCustomElements } from "https://esm.sh/@public-ui/components/dist/loader";
+      import { register } from "https://esm.sh/@public-ui/core@1.1.15-rc.0";
+      import { defineCustomElements } from "https://esm.sh/@public-ui/components@1.1.15-rc.0/dist/loader";
       import { TH } from "https://esm.sh/@public-oss/kolibri-themes";
       register([TH], [defineCustomElements])
         .then(() => {})
@@ -34,6 +34,9 @@
     <meta name="robots" content="noindex" />
     <style>
       @import url("https://fonts.cdnfonts.com/css/source-sans-pro");
+      kol-details {
+        margin: 0.125rem;
+      }
     </style>
   </head>
   <body class="th" data-theme="th">
@@ -45,7 +48,7 @@
             <ul>
               <li>
                 <kol-link
-                  _href="/th-ik-ja-belegerfassung"
+                  _href="/th-ik-ja-belegerfassung/"
                   _target="th-ik-ja-belegerfassung"
                   >Belegerfassung</kol-link
                 >
