@@ -10,7 +10,7 @@ env:
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"
   workflow_call:
   workflow_dispatch:
 
@@ -22,8 +22,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: '${{env.registry}}'
-          scope: '@${{env.scope}}'
+          registry-url: "${{env.registry}}"
+          scope: "@${{env.scope}}"
       - name: Clear
         run: |
           npm cache clean -f
@@ -38,7 +38,7 @@ jobs:
       - name: Unpack
         run: |
           tar -xzvf public-oss-*.tgz
-          mv package/dist docs
+          mv package/dist docs/th-ik-ja-belegerfassung
           rm -rf package *.tgz
           ls -la
       - name: Commit changed files
