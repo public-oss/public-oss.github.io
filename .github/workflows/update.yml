@@ -29,26 +29,26 @@ jobs:
           npm cache clean -f
           rm -rf package *.tgz
           ls -la
-      - name: Download
+      - name: Download belegerfassung
         env:
           NODE_AUTH_TOKEN: ${{env.token}}
         run: |
           npm pack @${{env.scope}}/th-ik-ja-belegerfassung
           ls -la
-      - name: Unpack
+      - name: Unpack belegerfassung
         run: |
           tar -xzvf public-oss-*.tgz
           rm -rf docs/th-ik-ja-belegerfassung
           mv package/dist docs/th-ik-ja-belegerfassung
           rm -rf package *.tgz
           ls -la
-      - name: Download
+      - name: Download consumption
         env:
           NODE_AUTH_TOKEN: ${{env.token}}
         run: |
           npm pack @${{env.scope}}/tracking-of-own-consumption
           ls -la
-      - name: Unpack
+      - name: Unpack consumption
         run: |
           tar -xzvf public-oss-*.tgz
           rm -rf docs/tracking-of-own-consumption
