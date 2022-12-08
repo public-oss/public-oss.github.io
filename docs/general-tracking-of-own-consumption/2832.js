@@ -1,0 +1,2 @@
+/*! For license information please see 2832.js.LICENSE.txt */
+"use strict";(self.webpackChunk_public_oss_general_tracking_of_own_consumption=self.webpackChunk_public_oss_general_tracking_of_own_consumption||[]).push([[2832],{2832:(s,n,o)=>{o.r(n),o.d(n,{kol_button_group_wc:()=>r});var l=o(2552);const r=class{constructor(s){(0,l.r)(this,s),this.state={}}render(){return(0,l.h)(l.H,null,(0,l.h)("div",{class:"flex flex-wrap bg-normal"},(0,l.h)("slot",null)))}}}}]);

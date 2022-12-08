@@ -1,0 +1,2 @@
+/*! For license information please see 1149.js.LICENSE.txt */
+"use strict";(self.webpackChunk_public_oss_general_tracking_of_own_consumption=self.webpackChunk_public_oss_general_tracking_of_own_consumption||[]).push([[1149],{1149:(n,s,e)=>{e.r(s),e.d(s,{lean_test_closed:()=>t});var _=e(9400);const t=class{constructor(n){(0,_.r)(this,n),this._name=void 0}render(){return(0,_.h)("lean-test-open",{_name:this._name},(0,_.h)("slot",null))}}}}]);
