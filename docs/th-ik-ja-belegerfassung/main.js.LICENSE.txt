@@ -1,4 +1,16 @@
 /*!
+
+JSZip v3.10.1 - A JavaScript class for generating and reading zip files
+<http://stuartk.com/jszip>
+
+(c) 2009-2016 Stuart Knightley <stuart [at] stuartk.com>
+Dual licenced under the MIT license or GPLv3. See https://raw.github.com/Stuk/jszip/main/LICENSE.markdown.
+
+JSZip uses the library pako released under the MIT license :
+https://github.com/nodeca/pako/blob/main/LICENSE
+*/
+
+/*!
  * KoliBri - The accessible HTML-Standard
  */
 
@@ -39,7 +51,7 @@
  */
 
 /**
- * @remix-run/router v1.1.0
+ * @remix-run/router v1.3.2
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -50,7 +62,7 @@
  */
 
 /**
- * React Router v6.5.0
+ * React Router v6.8.1
  *
  * Copyright (c) Remix Software Inc.
  *
