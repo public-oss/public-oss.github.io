@@ -1,2 +1,0 @@
-/*! For license information please see 8943.js.LICENSE.txt */
-"use strict";(self.webpackChunk_public_oss_th_ik_ja_belegerfassung=self.webpackChunk_public_oss_th_ik_ja_belegerfassung||[]).push([[8943],{8943:(s,e,t)=>{t.r(e),t.d(e,{kol_button_group_wc:()=>u});var _=t(1121);const u=class{constructor(s){(0,_.r)(this,s),this.state={}}render(){return(0,_.h)(_.H,null,(0,_.h)("slot",null))}}}}]);
