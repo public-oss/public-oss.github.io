@@ -1,5 +1,0 @@
-/*!
- * KoliBri - The accessible HTML-Standard
- */class n{constructor(e){this.document=e,this.toastContainerElement=this.document.createElement("kol-toast-container"),this.document.body.prepend(this.toastContainerElement)}static getInstance(e){let t=this.instances.get(e);return t||(t=new n(e),this.instances.set(e,t)),t}dispose(){const e=this.toastContainerElement;e?(this.toastContainerElement=void 0,e.remove()):console.warn("Toaster service is already disposed.")}async enqueue(e){var t;await((t=this.toastContainerElement)===null||t===void 0?void 0:t.enqueue(e))}}n.instances=new Map;/*!
- * KoliBri - The accessible HTML-Standard
- */var s,a;const o=n.getInstance(document);o.enqueue({description:"Toasty",label:"Initial Toast",type:"warning"});let l=0;(s=document.getElementById("oneToast"))===null||s===void 0||s.addEventListener("kol-click",()=>{o.enqueue({description:"Toasty "+ ++l,label:"Label",type:"warning"})}),(a=document.getElementById("manyToast"))===null||a===void 0||a.addEventListener("kol-click",()=>{for(let i=0;i<5;i++)o.enqueue({description:"Toasty "+ ++l,label:"Label",type:"warning"})});
