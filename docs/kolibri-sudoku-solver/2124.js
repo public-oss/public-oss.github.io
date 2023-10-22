@@ -1,0 +1,2 @@
+/*! For license information please see 2124.js.LICENSE.txt */
+"use strict";(self.webpackChunk_public_oss_kolibri_sudoku_solver=self.webpackChunk_public_oss_kolibri_sudoku_solver||[]).push([[2124],{2124:(e,o,l)=>{l.r(o),l.d(o,{default:()=>t});const n=document.getElementById("details"),s=document.getElementById("button");n._on={onToggle:(e,o)=>{s._label="👆Details "+(o?"schließen":"öffnen")}},s._on={onClick:()=>{n._open=!n._open}};const t={}}}]);

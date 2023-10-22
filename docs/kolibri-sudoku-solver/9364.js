@@ -1,0 +1,2 @@
+/*! For license information please see 9364.js.LICENSE.txt */
+"use strict";(self.webpackChunk_public_oss_kolibri_sudoku_solver=self.webpackChunk_public_oss_kolibri_sudoku_solver||[]).push([[9364],{9364:(e,o,t)=>{t.r(o),t.d(o,{default:()=>s}),setInterval((()=>{const e=document.querySelectorAll("kol-accordion,kol-details");e&&e.forEach((e=>{e.hasAttribute("_open")?e.removeAttribute("_open"):e.setAttribute("_open","")}))}),1e3);const s={}}}]);

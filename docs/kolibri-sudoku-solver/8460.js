@@ -1,0 +1,2 @@
+/*! For license information please see 8460.js.LICENSE.txt */
+"use strict";(self.webpackChunk_public_oss_kolibri_sudoku_solver=self.webpackChunk_public_oss_kolibri_sudoku_solver||[]).push([[8460],{8460:(s,u,l)=>{l.r(u),l.d(u,{kol_button_group_wc:()=>r});var o=l(2323);const r=class{constructor(s){(0,o.r)(this,s),this.state={}}render(){return(0,o.h)(o.H,null,(0,o.h)("slot",null))}}}}]);
