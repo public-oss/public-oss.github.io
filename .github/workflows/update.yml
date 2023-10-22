@@ -55,6 +55,20 @@ jobs:
           mv package/dist docs/general-tracking-of-own-consumption
           rm -rf package *.tgz
           ls -la
+
+      - name: Download sudoku
+        env:
+          NODE_AUTH_TOKEN: ${{env.token}}
+        run: |
+          npm pack @${{env.scope}}/kolibri-sudoku-solver
+          ls -la
+      - name: Unpack consumption
+        run: |
+          tar -xzvf public-oss-*.tgz
+          rm -rf docs/kolibri-sudoku-solver
+          mv package/dist docs/kolibri-sudoku-solver
+          rm -rf package *.tgz
+          ls -la
       - name: Commit changed files
         continue-on-error: true
         run: |
