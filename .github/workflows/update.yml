@@ -62,7 +62,7 @@ jobs:
         run: |
           npm pack @${{env.scope}}/kolibri-sudoku-solver
           ls -la
-      - name: Unpack consumption
+      - name: Unpack sudoku
         run: |
           tar -xzvf public-oss-*.tgz
           rm -rf docs/kolibri-sudoku-solver
